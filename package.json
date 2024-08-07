@@ -10,6 +10,9 @@
       "email": "wsmlby@gmail.com"
     }
   ],
+  "scripts": {
+    "dev": "node test/test.js 7484:89.208.241.203:3300"
+  },
   "main": "./lib/mtcp",
   "repository": {
     "type": "git",
