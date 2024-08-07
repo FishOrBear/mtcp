@@ -4,11 +4,11 @@
   "version": "0.1.10",
   "author": "wsmlby <wsmlby@gmail.com>",
   "description": "tcp over multi-tcp-connections",
-  "contributors": [ 
+  "contributors": [
     {
       "name": "wsmlby",
       "email": "wsmlby@gmail.com"
-    } 
+    }
   ],
   "main": "./lib/mtcp",
   "repository": {
@@ -22,14 +22,14 @@
     "socket",
     "tcp"
   ],
-  "dependencies" : {
-  		 "socketpool":">=0.1.7"
+  "dependencies": {
+    "socketpool": ">=0.1.7"
   },
   "analyze": false,
   "devDependencies": {
+    "@types/node": "^22.1.0"
   },
-  "bundledDependencies": [
-  ],  
+  "bundledDependencies": [],
   "license": "MIT",
   "engines": {
     "node": ">=0.10"
